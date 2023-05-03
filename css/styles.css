@@ -69,10 +69,7 @@ img {
     font-weight: 500;
 }
 .nav-container > a {
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-right: 76px;
-
 }
 
 .nav-flex {
@@ -106,6 +103,10 @@ img {
 }
 
 .nav-link {
+display: block;
+padding-top: 24px;
+padding-bottom: 24px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
