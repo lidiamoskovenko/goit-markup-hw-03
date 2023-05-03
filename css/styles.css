@@ -72,14 +72,14 @@ img {
 .nav-flex {
     display: flex;
     justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 }
 
 .nav-list,
 .address-list {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
-
 }
 
 .nav-list li:not(:last-child),
@@ -87,10 +87,8 @@ img {
     margin-right: 40px;
 }
 
-.logo-decoration {
+.header {
     margin-right: 76px;
-
-
 }
 
 .nav-logo {
@@ -140,7 +138,6 @@ img {
 /* section 1 */
 .section-one-container {
     padding: 188px 0;
-    ;
     text-align: center;
     background: var(--main-color-background);
 }
@@ -191,7 +188,7 @@ img {
 }
 
 .section-two-item {
-    flex-basis: calc(100%/4-24px);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .section-two-item:not(:last-child) {
@@ -303,7 +300,7 @@ img {
     background: var(--main-color-background);
 }
 
-.logo-decoration-footer {
+.footer {
     display: inline-block;
     margin-bottom: 16px;
 }
